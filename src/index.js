@@ -18,11 +18,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-// import ReactDOM from "react-dom";
+
 // import ReactDOM from "react-dom/client";
-
-// import { render } from "react-dom";
-
 const element = React.createElement("div", {
   a: 5,
   b: 10,
@@ -30,7 +27,5 @@ const element = React.createElement("div", {
 });
 
 console.log(element);
-
-// const domNode = document.getElementById("root");
 
 ReactDOM.render(element, document.querySelector("#root"));
