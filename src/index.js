@@ -15,16 +15,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const element = React.createElement('div', {
-  name: 'element',
-  id: 'el-test-Id',
-  className: 'el-test-class',
-  a: 5,
-  b: 10,
-  //
-  children: ['Hello world ! ', 'My ', 'name', ' ', 'DEN'],
-});
+const div = React.createElement(
+  'div',
+  {
+    id: 'el-test-Id',
+    className: 'el-test-class',
+    a: 5,
+    b: 10,
+  },
+  //children
+  'Hello world ! ',
+  'My ',
+  'name',
+  ' ',
+  'Den'
+);
 
-console.log(element);
+root.render(div);
 
-root.render(element);
+console.log(div);
