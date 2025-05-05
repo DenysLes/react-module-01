@@ -16,9 +16,13 @@ import ReactDOM from 'react-dom/client';
 // import ReactDOM from "react-dom/client";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const element = React.createElement('div', {
+  name: 'element',
+  id: 'el-test-Id',
+  className: 'el-test-class',
   a: 5,
   b: 10,
-  children: ['Hello', ' ', 'world', ' ', '!'],
+  //
+  children: ['Hello world ! ', 'My ', 'name', ' ', 'DEN'],
 });
 
 console.log(element);
