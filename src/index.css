@@ -14,7 +14,7 @@ code {
 
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
-.el-test-class {
+.p-class {
   background: -webkit-linear-gradient(#29a0ea, #e0f42e);
   background-clip: text;
   -webkit-text-fill-color: transparent;

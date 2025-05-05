@@ -14,20 +14,15 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const p = React.createElement('p', {
-  id: 'pId',
-  className: 'pClass',
-  children: ['This is paragraph .', <br />, 'Hello world ! ', 'My ', 'name ', 'is ', 'Den'],
-});
-const root = ReactDOM.createRoot(document.getElementById('root'));
-const div = React.createElement('div', {
-  id: 'el-test-Id',
-  className: 'el-test-class',
-  a: 5,
-  b: 10,
-  children: p,
-});
+const p = (
+  <p id="p-Id" className="p-class">
+    This is paragraph .<br /> Hello world ! My name is Den
+  </p>
+);
 
-root.render(div);
+const div = <div className="div-class">{p}</div>;
 
 console.log(div);
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(div);
