@@ -11,22 +11,25 @@ import './index.css';
 //   </React.StrictMode>
 // );
 
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
+import data from './data.json';
 
-const p = (
-  <p id="p-Id" className="p-class">
-    This is paragraph .<br /> Hello world ! My name is Den
-  </p>
-);
-
-const div = (
-  <div name="div-name" id="div-Id" className="div-class">
-    {p}
+const card = (
+  <div class='card' style={{ width: '18rem' }}>
+    <img src={data[0].url} class='card-img-top' alt='' />
+    <div class='card-body'>
+      <h5 class='card-title'>{data[0].title}</h5>
+      <p class='card-text'>
+        Some quick example text to build on the card title and make up the bulk of the cards
+        content.
+      </p>
+      <a href='http' class='btn btn-primary'>
+        Go somewhere
+      </a>
+    </div>
   </div>
 );
 
-console.log(div);
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(div);
+root.render(card);
