@@ -17,14 +17,14 @@ import data from './data.json';
 
 const card = (
   <div className='card mx-auto my-2' style={{ width: '18rem' }}>
-    <img src={data[2].url} class='card-img-top' alt={data[2].title} />
+    <img src={data[0].image} class='card-img-top' alt={data[0].name} />
     <div className='card-body'>
-      <h5 className='card-title'>{data[2].title}</h5>
+      <h5 className='card-title'>{data[0].calories} calories</h5>
       <p className='card-text'>
         Some quick example text to build on the card title and make up the bulk of the cards
         content.
       </p>
-      <a href='http' class='btn btn-primary'>
+      <a href='http' className='btn btn-primary'>
         Go somewhere
       </a>
     </div>
