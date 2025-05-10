@@ -20,7 +20,11 @@ const p = (
   </p>
 );
 
-const div = <div className="div-class">{p}</div>;
+const div = (
+  <div name="div-name" id="div-Id" className="div-class">
+    {p}
+  </div>
+);
 
 console.log(div);
 
