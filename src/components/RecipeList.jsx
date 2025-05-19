@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Recipe from "../components/Recipe";
 
 export default function RecipeList({ items }) {
@@ -18,3 +19,11 @@ export default function RecipeList({ items }) {
     </ul>
   );
 }
+
+RecipeList.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    })
+  ),
+};
