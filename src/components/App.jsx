@@ -1,5 +1,5 @@
 import Recipe from "./Recipe";
-import data from "../recepies.json";
+import recepies from "../recepies.json";
 
 export default function App() {
   return (
@@ -27,6 +27,14 @@ export default function App() {
         calories={recepies[2].calories}
         time={recepies[2].time}
         servings={recepies[2].servings}
+      />
+      <Recipe
+        id={recepies[3].id}
+        image={recepies[3].image}
+        name={recepies[3].name}
+        calories={recepies[3].calories}
+        time={recepies[3].time}
+        servings={recepies[3].servings}
       />
     </div>
   );

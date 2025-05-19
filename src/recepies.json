@@ -6,7 +6,8 @@
     "time": "20",
     "servings": 6,
     "calories": 210,
-    "image": "https://assets.bonappetit.com/photos/62cc4eca787a907e535e8e7f/1:1/w_2580%2Cc_limit/0711-black-bean-burger-lede.jpg"
+    "image": "https://assets.bonappetit.com/photos/62cc4eca787a907e535e8e7f/1:1/w_2580%2Cc_limit/0711-black-bean-burger-lede.jpg",
+    "quantity": 25
   },
   {
     "id":"id=2",
@@ -14,7 +15,8 @@
     "time": "15",
     "servings": 3,
     "calories": 600,
-    "image": "https://assets.bonappetit.com/photos/62b4926736e0c90647da6b71/1:1/w_2580%2Cc_limit/0623-diana-yen-tomato-recipe-lede.jpg"
+    "image": "https://assets.bonappetit.com/photos/62b4926736e0c90647da6b71/1:1/w_2580%2Cc_limit/0623-diana-yen-tomato-recipe-lede.jpg",
+    "quantity": 20
   },
   {
     "id":"id=3",
@@ -22,7 +24,8 @@
     "time": "30",
     "servings": 2,
     "calories": 320,
-    "image": "https://assets.bonappetit.com/photos/62bf35ae872a6cfbb260f286/1:1/w_2580%2Cc_limit/0701-tj-recipe-potato-v2.jpg"
+    "image": "https://assets.bonappetit.com/photos/62bf35ae872a6cfbb260f286/1:1/w_2580%2Cc_limit/0701-tj-recipe-potato-v2.jpg",
+    "quantity": 15
   },
   {
     "id":"id=4",
@@ -30,6 +33,7 @@
     "time": "40",
     "servings": 4,
     "calories": 700,
-    "image": "https://assets.bonappetit.com/photos/5db1b689823b960008d8468d/1:1/w_2580%2Cc_limit/Chicken-Biryani-Lede-NEW.jpg"
+    "image": "https://assets.bonappetit.com/photos/5db1b689823b960008d8468d/1:1/w_2580%2Cc_limit/Chicken-Biryani-Lede-NEW.jpg",
+    "quantity": 10
   }
 ]
