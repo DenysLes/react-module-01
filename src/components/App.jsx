@@ -19,6 +19,7 @@ export default function App() {
           servings={recepies[0].servings}
           quantity={recepies[0].quantity}
         />
+
         <Recipe
           id={recepies[3].id}
           image={recepies[3].image}
