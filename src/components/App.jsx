@@ -1,32 +1,32 @@
 import Recipe from "./Recipe";
-import data from "../data.json";
+import data from "../recepies.json";
 
 export default function App() {
   return (
     <div>
       <Recipe
-        id={data[0].id}
-        image={data[0].image}
-        name={data[0].name}
-        calories={data[0].calories}
-        time={data[0].time}
-        servings={data[0].servings}
+        id={recepies[0].id}
+        image={recepies[0].image}
+        name={recepies[0].name}
+        calories={recepies[0].calories}
+        time={recepies[0].time}
+        servings={recepies[0].servings}
       />
       <Recipe
-        id={data[1].id}
-        image={data[1].image}
-        name={data[1].name}
-        calories={data[1].calories}
-        time={data[1].time}
-        servings={data[0].servings}
+        id={recepies[1].id}
+        image={recepies[1].image}
+        name={recepies[1].name}
+        calories={recepies[1].calories}
+        time={recepies[1].time}
+        servings={recepies[0].servings}
       />
       <Recipe
-        id={data[2].id}
-        image={data[2].image}
-        name={data[2].name}
-        calories={data[2].calories}
-        time={data[2].time}
-        servings={data[2].servings}
+        id={recepies[2].id}
+        image={recepies[2].image}
+        name={recepies[2].name}
+        calories={recepies[2].calories}
+        time={recepies[2].time}
+        servings={recepies[2].servings}
       />
     </div>
   );

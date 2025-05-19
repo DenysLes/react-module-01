@@ -11,13 +11,13 @@ export default function Recipe(recipe) {
   );
 }
 
-// const datas = data;
+// const data = recepies;
 
 // <Recipe
-//   id={datas.id}
-//   image={datas.image}
-//   name={datas.name}
-//   calories={datas.calories}
-//   time={datas.time}
-//   servings={datas.servings}
+//   id={data.id}
+//   image={data.image}
+//   name={data.name}
+//   calories={data.calories}
+//   time={data.time}
+//   servings={data.servings}
 // />;
