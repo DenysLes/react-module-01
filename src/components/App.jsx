@@ -2,6 +2,7 @@ import RecipeList from "../components/RecipeList";
 import recepies from "../recepies.json";
 import Section from "../components/Section";
 import Recipe from "./Recipe";
+import CardList from "../components/CardList";
 
 export default function App() {
   return (
@@ -29,6 +30,9 @@ export default function App() {
           servings={recepies[3].servings}
           quantity={recepies[3].quantity}
         />
+      </Section>
+      <Section>
+        <CardList items={recepies} />
       </Section>
     </div>
   );
