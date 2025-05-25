@@ -14,6 +14,15 @@ export default function Recipe(recipe) {
   );
 }
 
+Recipe.propTypes = {
+  id: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
+  servings: PropTypes.number.isRequired,
+  calories: PropTypes.number.isRequired,
+  quantity: PropTypes.number.isRequired,
+};
 // const data = recepies;
 
 // <Recipe
@@ -25,13 +34,3 @@ export default function Recipe(recipe) {
 //   servings={data.servings}
 //   quantity={data.quantity}
 // />;
-
-Recipe.propTypes = {
-  id: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  time: PropTypes.string.isRequired,
-  servings: PropTypes.number.isRequired,
-  calories: PropTypes.number.isRequired,
-  quantity: PropTypes.number.isRequired,
-};
