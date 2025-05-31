@@ -1,18 +1,18 @@
+import { Card } from "../Card";
 import PropTypes from "prop-types";
-import Recipe from "../components/Recipe";
 
-export default function RecipeList({ items }) {
+export default function CardList({ items }) {
   return (
     <ul>
       {items.map((item) => (
         <li key={item.id}>
-          <Recipe
+          <Card
             image={item.image}
             name={item.name}
             calories={item.calories}
+            quantity={item.quantity}
             time={item.time}
             servings={item.servings}
-            quantity={item.quantity}
           />
         </li>
       ))}
@@ -20,7 +20,9 @@ export default function RecipeList({ items }) {
   );
 }
 
-RecipeList.propTypes = {
+// export { CardList };
+
+CardList.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

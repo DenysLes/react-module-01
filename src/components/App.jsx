@@ -1,8 +1,8 @@
-import RecipeList from "../components/RecipeList";
+import RecipeList from "../components/Recipe/RecipeList";
 import recepies from "../recepies.json";
-import Section from "../components/Section";
+import Section from "../components/Section/Section";
 import Recipe from "./Recipe";
-import CardList from "../components/CardList";
+import CardList from "../components/Card/CardList";
 
 export default function App() {
   return (
